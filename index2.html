@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Lottery Game</title>
+  <style type="text/css" media="screen">
+  @import url('https://fonts.googleapis.com/css?family=Montserrat');
+     * {
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    #one,
+    #two,
+    #three,
+    #four,
+    #five,
+    #bonus {
+        font-size: 90px;
+        text-align: center;
+    }
+
+    #center {
+        text-align: center;
+        margin: 0 auto;
+        width: 75%;
+    }
+h1{
+  font-size: 4em;
+  text-emphasis-style: open;
+  -webkit-text-emphasis-style: open;
+  text-decoration: underline dotted;
+}
+    button {
+        margin-top: 40px;
+        height: 50px;
+        font-size: 20px;
+    }
+</style>
+  <script src="http://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script src="script.js"></script>
+</head>
+<body onload="init();">
+  <div id="center">
+
+  <h1>LOTTO!</h1>
+<input id="one" type="number" name="" value="" placeholder="" min="1" max="70" maxlength="2">
+<input id="two" type="number" name="" value="" placeholder="" min="1" max="70">
+<input id="three" type="number" name="" value="" placeholder="" min="1" max="70">
+<input id="four" type="number" name="" value="" placeholder="" min="1" max="70">
+<input id="five" type="number" name="" value="" placeholder="" min="1" max="70">
+<input id="bonus" type="number" name="" value="" placeholder="" min="1" max="25">
+<button id="check" type="">Check winning numbers</button>
+</div>
+</body>
+</html>
